@@ -6,14 +6,14 @@ x -- Employee will have a name, NI number and salary.
 x -- Create Getters for all properties.
 -- Add a method named raiseSalary with takes in a parameter of type double to increment the salary.
 -- Add a method called payBonus which returns 1% of the employees salary.
--- Don't worry about testing just now until you create the subclasses.
+Don't worry about testing just now until you create the subclasses.
 
 
-Create a subclass of Employee called Manager in a package called management.
-Create a class for Manager.
-Add a property to store the department name in a property called deptName.
-Create a constructor that includes all the parameters needed for Employee and deptName.
-Add a getter method for deptName.
+x -- Create a subclass of Employee called Manager in a package called management.
+x -- Create a class for Manager.
+x -- Add a property to store the department name in a property called deptName.
+x -- Create a constructor that includes all the parameters needed for Employee and deptName.
+x -- Add a getter method for deptName.
 Test all methods including raiseSalary and payBonus
 Create subclasses of Employee: Developer and DatabaseAdmin in a package called techStaff.
 Create 2 new classes for Developer and DatabaseAdmin.
