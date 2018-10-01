@@ -54,4 +54,15 @@ public class ManagerTest {
     public void canPayBonus() {
         assertEquals(200, manager.payBonus(), 1);
     }
+
+    @Test
+    public void getDeptName() {
+        assertEquals("Payroll", manager.getDeptName());
+    }
+
+    @Test
+    public void setDeptName() {
+        manager.setDeptName("Marketing");
+        assertEquals("Marketing", manager.getDeptName());
+    }
 }
