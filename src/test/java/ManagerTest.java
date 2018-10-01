@@ -22,4 +22,15 @@ public class ManagerTest {
         manager.setName("Sue");
         assertEquals("Sue", manager.getName());
     }
+
+    @Test
+    public void canGetNINumber() {
+        assertEquals("AB123456A", manager.getNINumber());
+    }
+
+    @Test
+    public void canSetNINumber() {
+        manager.setNINumber("ZY987654Z");
+        assertEquals("ZY987654Z", manager.getNINumber());
+    }
 }
