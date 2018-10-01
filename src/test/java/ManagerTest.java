@@ -9,7 +9,7 @@ public class ManagerTest {
 
     @Before
     public void setUp() throws Exception {
-        manager = new Manager("Joe", "AB123456A", 20000,"Payroll");
+        manager = new Manager("Joe", "AB123456A", 20000.50,"Payroll");
     }
 
     @Test
@@ -32,5 +32,16 @@ public class ManagerTest {
     public void canSetNINumber() {
         manager.setNINumber("ZY987654Z");
         assertEquals("ZY987654Z", manager.getNINumber());
+    }
+
+    @Test
+    public void canGetSalary() {
+        assertEquals(20000.50, manager.getSalary(), 1);
+    }
+
+    @Test
+    public void canSetSalary() {
+        manager.setSalary(21050.50);
+        assertEquals(21050.50, manager.getSalary(), 1);
     }
 }
