@@ -20,11 +20,11 @@ public abstract class Employee {
         this.name = name;
     }
 
-    public int getnINumber() {
+    public int getNINumber() {
         return nINumber;
     }
 
-    public void setnINumber(int nINumber) {
+    public void setNINumber(int nINumber) {
         this.nINumber = nINumber;
     }
 
@@ -36,11 +36,13 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public void raiseSalary(double salary) {
+    public double raiseSalary() {
+        double newSalary = this.salary + 1;
+        return newSalary;
+    } //not sure if this is correct?
 
-    }
-
-    public void payBonus() {
-
-    }
+    public double payBonus() {
+        double bonusAmount = getSalary() * 0.01;
+        return bonusAmount;
+    } //not sure if this is correct?
 }
