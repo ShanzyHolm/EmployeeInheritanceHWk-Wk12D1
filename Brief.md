@@ -15,16 +15,22 @@ x -- Add a property to store the department name in a property called deptName.
 x -- Create a constructor that includes all the parameters needed for Employee and deptName.
 x -- Add a getter method for deptName.
 x -- Test all methods including raiseSalary and payBonus
+
+
 x -- Create subclasses of Employee: Developer and DatabaseAdmin in a package called techStaff.
 x -- Create 2 new classes for Developer and DatabaseAdmin.
+x -- These should take in the same parameters as Employee and pass them to Employee constructor.
+x -- Again test all methods for both classes.
 
-These should take in the same parameters as Employee and pass them to Employee constructor.
-Again test all methods for both classes.
-Create a subclass of Manager called Director in the management package.
-Add a private property to store a double value budget.
-Create a constructor for Director that includes the parameters needed for Manager and the budget parameter.
-Create a getter method for this property.
+
+x -- Create a subclass of Manager called Director in the management package.
+x -- Add a private property to store a double value budget.
+x -- Create a constructor for Director that includes the parameters needed for Manager and the budget parameter.
+x -- Create a getter method for this property.
 Test all methods.
+
+
+
 Extensions
 Prevent unwanted values
 Prevent a negative value for the raiseSalary method.
