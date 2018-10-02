@@ -52,7 +52,7 @@ public class DirectorTest {
 
     @Test
     public void canPayBonus() {
-        assertEquals(200, director.payBonus(), 1);
+        assertEquals(400, director.payBonus(), 1);
     }
 
     @Test
