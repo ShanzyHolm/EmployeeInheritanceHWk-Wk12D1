@@ -14,9 +14,9 @@ x -- Create a class for Manager.
 x -- Add a property to store the department name in a property called deptName.
 x -- Create a constructor that includes all the parameters needed for Employee and deptName.
 x -- Add a getter method for deptName.
-Test all methods including raiseSalary and payBonus
-Create subclasses of Employee: Developer and DatabaseAdmin in a package called techStaff.
-Create 2 new classes for Developer and DatabaseAdmin.
+x -- Test all methods including raiseSalary and payBonus
+x -- Create subclasses of Employee: Developer and DatabaseAdmin in a package called techStaff.
+x -- Create 2 new classes for Developer and DatabaseAdmin.
 
 These should take in the same parameters as Employee and pass them to Employee constructor.
 Again test all methods for both classes.
